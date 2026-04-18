@@ -1,18 +1,18 @@
-# AutoVision-AI — Autonomous Driving on Raspberry Pi
+# Autonomous Driving on Raspberry Pi
 
-An end-to-end autonomous driving system built from scratch: custom Gymnasium simulation, Transformer + LSTM + RecurrentPPO policy trained with behavioral cloning warm-start, and a MobileNetV3-Small traffic sign classifier — all exported to INT8 ONNX and deployed on a Raspberry Pi 4.
+An end-to-end autonomous driving system built from scratch: custom Gymnasium simulation, Transformer + LSTM + RecurrentPPO policy trained with behavioral cloning warm-start, and a MobileNetV3-Small traffic sign classifier,all exported to INT8 ONNX and deployed on a Raspberry Pi 4.
 
 ---
 
 ## Demo
 
-### Simulation — PPO Policy Running Live
+### Simulation: PPO Policy Running Live
 <img src="demo.gif" width="600"/>
 
-### On-Device Inference — Raspberry Pi 4 (After Optimisation)
+### On-Device Inference: Raspberry Pi 4 (After Optimisation)
 <img src="raspi_demo.gif" width="600"/>
 
-### Stop Sign Detection (INT8 ONNX, ~20ms inference)
+### Stop Sign Detection (INT8 ONNX)
 <img src="stop_sign_recog.png" width="600"/>
 
 ---
