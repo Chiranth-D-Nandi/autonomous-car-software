@@ -7,13 +7,13 @@ An end-to-end autonomous driving system built from scratch: custom Gymnasium sim
 ## Demo
 
 ### Simulation — PPO Policy Running Live
-https://github.com/user-attachments/assets/demo.mp4
+<img src="demo.gif" width="600"/>
 
 ### On-Device Inference — Raspberry Pi 4 (After Optimisation)
-https://github.com/user-attachments/assets/AutoVision-AI_on_Raspberry_pi_after_optimisation.mp4
+<img src="raspi_demo.gif" width="600"/>
 
 ### Stop Sign Detection (INT8 ONNX, ~20ms inference)
-![Stop Sign Detection](Stop_sign_detection.png)
+<img src="stop_sign_recog.png" width="600"/>
 
 ---
 
